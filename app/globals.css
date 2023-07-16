@@ -18,6 +18,9 @@
   h5 {
     @apply font-bold text-xl;
   }
+  h6 {
+    @apply font-bold text-lg text-gray-800;
+  }
   .flexHeading {
     @apply flex items-center mb-2;
   }
@@ -25,6 +28,6 @@
     @apply text-gray-500 mb-2 px-2 text-justify;
   }
   .p2 {
-    @apply text-sm text-gray-600;
+    @apply text-sm text-gray-500 font-semibold;
   }
 }

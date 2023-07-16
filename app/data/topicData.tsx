@@ -1,7 +1,7 @@
 
 // Topic Cover on 4th July' 2023
 import { JsxElement } from "typescript";
-import { AlignItemsConcept, Card, FlexWrap, IconAndText, Justify_Content, LogosWrapped, Quotes_side_by_side, Tabs_Spaced_Out, TeamProfiles } from "../component/Flex";
+import { AlternatingListOfProfiles, Card, CardWithHeaderAndFooter, CenterADiv, FlexWrap, FrequentQuestions, IconAndText, InlineSubscribeForm, Justify_Content, LogosWrapped, ProfileCard, Quotes_side_by_side, ServicesSection, StickyFooter, Tabs_Spaced_Out, TeamProfiles, TestimonialCard, WelcomeScreen } from "../component/Flex";
 
 interface TopicCover {
   title: string;
@@ -12,18 +12,6 @@ interface TopicCover {
 }
 
 export const topicCoverData: TopicCover[] = [
-  {
-    title: "tailwind css",
-    class: "onSite",
-    id: "",
-    subMenu: true,
-  },
-  {
-    title: "Flex",
-    class: "onSite",
-    id: "",
-
-  },
   {
     title: "Quotes_side_by_side",
     class: "onSite",
@@ -73,9 +61,63 @@ export const topicCoverData: TopicCover[] = [
     target: <IconAndText />,
   },
   {
-    title: "Align Items Concept",
+    title: "Profile Card - Small",
     class: "onSite",
     id: "",
-    target: <AlignItemsConcept />,
+    target: <ProfileCard />,
+  },
+  {
+    title: "Services Section",
+    class: "onSite",
+    id: "",
+    target: <ServicesSection />,
+  },
+  {
+    title: "Frequent Questions",
+    class: "onSite",
+    id: "",
+    target: <FrequentQuestions />,
+  },
+  {
+    title: "Center a div",
+    class: "onSite",
+    id: "",
+    target: <CenterADiv />,
+  },
+  {
+    title: "Welcome Screen",
+    class: "onSite",
+    id: "",
+    target: <WelcomeScreen />,
+  },
+  {
+    title: "Testimonial Card",
+    class: "onSite",
+    id: "",
+    target: <TestimonialCard />,
+  },
+  {
+    title: "Alternating List of Profiles",
+    class: "onSite",
+    id: "",
+    target: <AlternatingListOfProfiles />,
+  },
+  {
+    title: "Inline Subscribe Form",
+    class: "onSite",
+    id: "",
+    target: <InlineSubscribeForm />,
+  },
+  {
+    title: "Sticky Footer",
+    class: "onSite",
+    id: "",
+    target: <StickyFooter />,
+  },
+  {
+    title: "Card with Header & Footer",
+    class: "onSite",
+    id: "",
+    target: <CardWithHeaderAndFooter />,
   },
 ];
